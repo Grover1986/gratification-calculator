@@ -1,9 +1,14 @@
+import { menuItems } from './service/db'
 
 function App() {
 
+   console.log(menuItems)
+
    return (
       <>
-         <h1 className='text-6xl font-black'>Hola mundo</h1>
+         <header className='bg-teal-400 py-5'>
+            <h1 className='text-center text-4xl font-black'>Calculadora de Propinas y Consumo</h1>
+         </header>
       </>
    )
 }
